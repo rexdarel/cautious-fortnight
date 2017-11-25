@@ -26,7 +26,7 @@ public class Splash extends BaseActivity {
         new Handler().postDelayed(new Runnable() {
             @Override
             public void run() {
-                startActivity(new Intent(Splash.this, Main.class));
+                startActivity(new Intent(Splash.this, LoginActivity.class));
                 finish();
             }
         }, 3*1000);

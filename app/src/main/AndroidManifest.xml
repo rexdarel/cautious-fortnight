@@ -23,13 +23,18 @@
             android:name=".Main"
             android:label="@string/title_activity_main"
             android:theme="@style/AppTheme" />
-        <activity android:name=".Detail"
+        <activity
+            android:name=".Detail"
             android:theme="@style/Full"
             android:windowSoftInputMode="adjustPan">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value=".Main"/>
+                android:value=".Main" />
         </activity>
+        <activity
+            android:name=".LoginActivity"
+            android:label="@string/title_activity_login"
+            android:theme="@style/Full"></activity>
     </application>
 
 </manifest>
